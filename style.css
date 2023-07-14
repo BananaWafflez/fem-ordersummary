@@ -12,10 +12,10 @@ body{
     text-align: center;
     background-color: white;
     border-radius: 16px;
-    width: 600px
+    width: 500px
 }
 img{
-    width: 600px;
+    width: 500px;
     border-radius: 16px;
     padding-bottom: 16px;
 }
@@ -24,12 +24,37 @@ img{
     flex-direction: column;
 }
 .bigtext{
-    font-weight: 700;
+    font-weight: 900;
     font-size: 32px;
-    color: hsl(223, 47%, 23%)
+    color: hsl(223, 47%, 23%);
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 
 .attribution{
     position: absolute;
     bottom: 0px;
+}
+.catcher{
+  display:flex;  
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 300px;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.5;
+}
+
+.pay{
+    padding:12px;
+    font-weight: 900;
+    font-family: "Red Hat Display";
+    border-style: none;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    width: 350px;
+    text-align: center;
+    margin: auto;
 }
