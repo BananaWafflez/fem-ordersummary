@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    font-family: "Red Hat Display";
+    background-color: hsl(225, 100%, 94%);
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 16px;
+    width: 600px
+}
+img{
+    width: 600px;
+    border-radius: 16px;
+    padding-bottom: 16px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.bigtext{
+    font-weight: 700;
+    font-size: 32px;
+    color: hsl(223, 47%, 23%)
+}
