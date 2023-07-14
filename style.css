@@ -4,6 +4,7 @@ body{
     background-color: hsl(225, 100%, 94%);
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 .main{
     display:flex;
@@ -26,4 +27,9 @@ img{
     font-weight: 700;
     font-size: 32px;
     color: hsl(223, 47%, 23%)
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0px;
 }
