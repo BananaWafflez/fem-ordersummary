@@ -58,3 +58,13 @@ img{
     text-align: center;
     margin: auto;
 }
+.paymentbox{
+    display:flex;
+    text-align: center;
+    justify-content: space-evenly;
+    gap:72px;
+    align-items: center;
+    padding:30px;
+    margin: auto;
+    line-height: 1.5;
+}
