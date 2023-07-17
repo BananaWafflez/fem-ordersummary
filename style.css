@@ -61,10 +61,40 @@ img{
 .paymentbox{
     display:flex;
     text-align: center;
-    justify-content: space-evenly;
-    gap:72px;
+    justify-content: space-around;
+    gap: 76px;
     align-items: center;
     padding:30px;
     margin: auto;
     line-height: 1.5;
+}
+.musicnote{
+    width: 50px;
+    margin: auto;
+    padding: 0;
+    margin-right: 16px;
+}
+.musicplan{
+    display:flex;
+    flex-direction: row;
+    
+}
+.price{
+    display:flex;
+    flex-direction: column;
+    font-size: 18px;
+    
+}
+.pricetag{
+    font-weight: 500;
+}
+.change{
+    font-family: "Red Hat Display";
+    color:hsl(245, 75%, 52%);
+    border-style: none;
+    text-decoration: none;
+    font-weight: 900;
+    background-color: white;
+    font-size: 14px;
+    
 }
