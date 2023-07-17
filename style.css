@@ -12,7 +12,9 @@ body{
     text-align: center;
     background-color: white;
     border-radius: 16px;
-    width: 500px
+    width: 500px;
+    position: relative;
+    z-index: 10;
 }
 img{
     width: 500px;
@@ -46,6 +48,8 @@ img{
 }
 
 .pay{
+    position:relative;
+    z-index:3;
     padding:12px;
     font-weight: 900;
     font-family: "Red Hat Display";
@@ -57,6 +61,7 @@ img{
     width: 350px;
     text-align: center;
     margin: auto;
+    box-shadow: 0 12px 30px -12px hsl(245, 75%, 52%);
 }
 .paymentbox{
     display:flex;
@@ -97,4 +102,7 @@ img{
     background-color: white;
     font-size: 14px;
     
+}
+.cancel{
+    padding: 32px;
 }
