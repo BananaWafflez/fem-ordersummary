@@ -15,13 +15,14 @@ button{
     text-align: center;
     background-color: white;
     border-radius: 16px;
-    width: 500px;
+    width: 450px;
     position: relative;
     z-index: 10;
     box-shadow: 6px 12px 30px -12px rgb(145, 145, 145);
+    gap: 24px;
 }
 img{
-    width: 500px;
+    width: 450px;
     border-radius: 16px;
     padding-bottom: 16px;
 }
@@ -73,9 +74,12 @@ img{
     justify-content: space-around;
     gap: 76px;
     align-items: center;
-    padding:30px;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
     margin: auto;
     line-height: 1.5;
+    background-color: hsl(223, 100%, 96%);
 }
 .musicnote{
     width: 50px;
@@ -103,14 +107,22 @@ img{
     border-style: none;
     text-decoration: none;
     font-weight: 900;
-    background-color: white;
+    background-color: hsl(223, 100%, 96%);
     font-size: 14px;
     
 }
 .cancel{
-    padding: 32px;
-    margin-bottom: 12px;
+    padding: 0;
+    margin-bottom: 64px;
     font-weight: 900;
     border-style: none;
     background-color: white;
+    max-width: 450px;
+    width: auto;
+}
+.cancel:hover{
+    color: black;
+}
+.pay:hover{
+    filter: brightness(130%);
 }
