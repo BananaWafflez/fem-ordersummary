@@ -107,8 +107,10 @@ img{
     border-style: none;
     text-decoration: none;
     font-weight: 900;
-    background-color: hsl(223, 100%, 96%);
+    background-color: transparent;
     font-size: 14px;
+    padding: 0;
+    width: auto;
     
 }
 .cancel{
@@ -125,4 +127,7 @@ img{
 }
 .pay:hover{
     filter: brightness(130%);
+}
+.change:hover{
+    filter: brightness(180%);
 }
