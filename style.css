@@ -6,6 +6,9 @@ body{
     align-items: center;
     min-height: 100vh;
 }
+button{
+    font-family: "Red Hat Display";
+}
 .main{
     display:flex;
     flex-direction: column;
@@ -105,4 +108,8 @@ img{
 }
 .cancel{
     padding: 32px;
+    margin-bottom: 12px;
+    font-weight: 900;
+    border-style: none;
+    background-color: white;
 }
